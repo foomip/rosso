@@ -1,0 +1,17 @@
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.859 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/demo/views.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.667 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/demo/views.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.809 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/demo/views.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.649 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/demo/views.js
