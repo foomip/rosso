@@ -4,7 +4,8 @@
    [clojure.string :refer [join]]
    [re-frame.core :as rf]
    [reagent.core :as r]
-   [rosso.views :refer [router vertical-menu]]))
+   [rosso.views :refer [router vertical-menu]]
+   [rosso.views.gpu-stats :as gpu-stats]))
 
 (defn navbar
   "Displays a blessed js box with a vertical-menu used for navigation.
@@ -24,7 +25,8 @@
                              :about "About"
                              :resources "Resources"
                              :credits "Credits"
-                             :testing "Testing"}
+                             :testing "Testing"
+                             :gpu-stats "GPU Stats"}
                    :bg :magenta
                    :fg :black
                    :on-select #(rf/dispatch [:update {:router/view %}])}]])
@@ -222,6 +224,7 @@
                     :about about
                     :resources resources
                     :credits credits
-                    :testing home}
+                    :testing home
+                    :gpu-stats gpu-stats/view}
             :view view}]
    child])

@@ -15,3 +15,119 @@ Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
 [32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.649 seconds.[0m
 notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
 notifying browser that file changed:  target/js/compiled/dev/rosso/demo/views.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.628 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/demo/views.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.319 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[36m----  Compiler Warning on   src/rosso/views/gpu_stats.cljs   line:27  column:24  ----[0m
+
+  [1mUse of undeclared Var rosso.views.gpu-stats/join[0m
+
+  [36m23[0m  [36m       :style {:fg :green}[0m
+  [36m24[0m  [36m       :content "https://github.com/eccentric-j/cljs-tui-template"}][0m
+  [36m25[0m  [36m[:text {:top 5[0m
+  [36m26[0m  [36m        :align :center[0m
+  [33m27[0m  [1m        :content  (join "\n  - "[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var rosso.views.gpu-stats/join[0m
+  [36m28[0m  [36m                        ["Features:\n"[0m
+  [36m29[0m  [36m                         "Use ClojureScript and functional programming\n    to deliver rich CLIs quickly"[0m
+  [36m30[0m  [36m                         "Manage your state and side-effects with re-frame"[0m
+  [36m31[0m  [36m                         "Compose simple view functions into a rich UI\n    with Reagent React views"[0m
+  [36m32[0m  [36m                         "Use web technologies you are already familiar with"[0m
+
+[36m----  Compiler Warning : Please see src/rosso/views/gpu_stats.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.335 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[36m----  Compiler Warning on   src/rosso/views/gpu_stats.cljs   line:27  column:24  ----[0m
+
+  [1mUse of undeclared Var rosso.views.gpu-stats/join[0m
+
+  [36m23[0m  [36m       :style {:fg :green}[0m
+  [36m24[0m  [36m       :content "https://github.com/eccentric-j/cljs-tui-template"}][0m
+  [36m25[0m  [36m[:text {:top 5[0m
+  [36m26[0m  [36m        :align :center[0m
+  [33m27[0m  [1m        :content  (join "\n  - "[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var rosso.views.gpu-stats/join[0m
+  [36m28[0m  [36m                        ["Features:\n"[0m
+  [36m29[0m  [36m                         "Use ClojureScript and functional programming\n    to deliver rich CLIs quickly"[0m
+  [36m30[0m  [36m                         "Manage your state and side-effects with re-frame"[0m
+  [36m31[0m  [36m                         "Compose simple view functions into a rich UI\n    with Reagent React views"[0m
+  [36m32[0m  [36m                         "Use web technologies you are already familiar with"[0m
+
+[36m----  Compiler Warning : Please see src/rosso/views/gpu_stats.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.301 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[36m----  Compiler Warning on   src/rosso/views/gpu_stats.cljs   line:27  column:24  ----[0m
+
+  [1mUse of undeclared Var rosso.views.gpu-stats/join[0m
+
+  [36m23[0m  [36m       :style {:fg :green}[0m
+  [36m24[0m  [36m       :content "https://github.com/eccentric-j/cljs-tui-template"}][0m
+  [36m25[0m  [36m[:text {:top 5[0m
+  [36m26[0m  [36m        :align :center[0m
+  [33m27[0m  [1m        :content  (join "\n  - "[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var rosso.views.gpu-stats/join[0m
+  [36m28[0m  [36m                        ["Features:\n"[0m
+  [36m29[0m  [36m                         "Use ClojureScript and functional programming\n    to deliver rich CLIs quickly"[0m
+  [36m30[0m  [36m                         "Manage your state and side-effects with re-frame"[0m
+  [36m31[0m  [36m                         "Compose simple view functions into a rich UI\n    with Reagent React views"[0m
+  [36m32[0m  [36m                         "Use web technologies you are already familiar with"[0m
+
+[36m----  Compiler Warning : Please see src/rosso/views/gpu_stats.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.28 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[31mFailed to compile build :dev from ["src" "env/dev"] in 0.201 seconds.[0m
+[36m----  Could not Read  src/rosso/demo/views.cljs   line:228 ----[0m
+
+  [1m/home/foomip/Documents/MyProjects/rosso/src/rosso/demo/views.cljs [line 228, col 31] The map literal starting with :loader on line 222 column 20 contains 13 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m226[0m  [36m                 :credits credits[0m
+  [36m227[0m  [36m                 :testing home[0m
+  [33m228[0m  [1m                 :gpu-info}[0m
+  [0m   [0m  [33m                 /home/foomip/Documents/MyProjects/rosso/src/rosso/demo/views.cljs [line 228, col 31] The map literal starting with :loader on line 222 column 20 contains 13 form(s). Map literals must contain an even number of forms.[0m
+  [36m229[0m  [36m         :view view}][0m
+  [36m230[0m  [36mchild])[0m
+
+[36m----  Reader Error : Please see src/rosso/demo/views.cljs  ----[0m
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.323 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/demo/views.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[36m----  Compiler Warning on   src/rosso/views/gpu_stats.cljs   line:27  column:24  ----[0m
+
+  [1mUse of undeclared Var rosso.views.gpu-stats/join[0m
+
+  [36m23[0m  [36m       :style {:fg :green}[0m
+  [36m24[0m  [36m       :content "https://github.com/eccentric-j/cljs-tui-template"}][0m
+  [36m25[0m  [36m[:text {:top 5[0m
+  [36m26[0m  [36m        :align :center[0m
+  [33m27[0m  [1m        :content  (join "\n  - "[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var rosso.views.gpu-stats/join[0m
+  [36m28[0m  [36m                        ["Features:\n"[0m
+  [36m29[0m  [36m                         "Use ClojureScript and functional programming\n    to deliver rich CLIs quickly"[0m
+  [36m30[0m  [36m                         "Manage your state and side-effects with re-frame"[0m
+  [36m31[0m  [36m                         "Compose simple view functions into a rich UI\n    with Reagent React views"[0m
+  [36m32[0m  [36m                         "Use web technologies you are already familiar with"[0m
+
+[36m----  Compiler Warning : Please see src/rosso/views/gpu_stats.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.324 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.35 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
