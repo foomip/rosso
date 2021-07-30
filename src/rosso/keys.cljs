@@ -24,7 +24,7 @@
     (.unkey screen (clj->js hotkeys) f)))
 
 (defn setup
-  "Bind global-bindings to blssed screen instance.
+  "Bind global-bindings to blessed screen instance.
   Takes blessed screen instance.
   Returns nil."
   [screen]

@@ -10,7 +10,7 @@
 
 (rf/reg-event-db
   :init
-  (fn [db [_ opts terminal-size]]
+  (fn [_ [_ opts terminal-size]]
     {:opts opts
      :router/view :loader
      :terminal/size terminal-size}))
@@ -22,5 +22,5 @@
 
 (rf/reg-event-db
   :set
-  (fn [db [_ data]]
+  (fn [_ [_ data]]
     data))

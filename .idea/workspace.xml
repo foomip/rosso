@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fb5fbc7-6582-4a8e-abc0-02005716f3aa" name="Changes" comment="feat: js and clj packages updates to latest">
+      <change beforePath="$PROJECT_DIR$/env/dev/rosso/app.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/env/dev/rosso/app.cljs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/dev/rosso/debug/views.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/env/dev/rosso/debug/views.cljs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figwheel_server.log" beforeDir="false" afterPath="$PROJECT_DIR$/figwheel_server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rosso/core.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/rosso/core.cljs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rosso/demo/views.cljs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rosso/events.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/rosso/events.cljs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rosso/keys.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/rosso/keys.cljs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rosso/main.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/rosso/main.cljs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rosso/views.cljs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ClojureScript Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1vymORhVbBPxKy3E2UbeYmxkNQ4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cursive.last.file.extension./home/foomip/Documents/MyProjects/rosso/src" value="cljs" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="local dev" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="npm run init" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fb5fbc7-6582-4a8e-abc0-02005716f3aa" name="Changes" comment="" />
+      <created>1627542671261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627542671261</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat: js and clj packages updates to latest">
+      <created>1627649296825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627649296825</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: js and clj packages updates to latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: js and clj packages updates to latest" />
+  </component>
+</project>

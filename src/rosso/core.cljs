@@ -22,7 +22,7 @@
     (.screen blessed
              #js {:autoPadding true
                   :smartCSR true
-                  :title "rosso"})
+                  :title "Rosso AMD GPU Overclocking Tool"})
     resize/setup
     keys/setup))
 

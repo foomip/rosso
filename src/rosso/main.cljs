@@ -7,11 +7,10 @@
    [re-frame.core :as rf]
    [reagent.core :as r]
    [rosso.core :refer [render screen]]
-   [rosso.demo.views :refer [demo]]
+   [rosso.views.core :refer [main-window]]
    [rosso.events]
    [rosso.resize :refer [size]]
-   [rosso.subs]
-   [rosso.views :as views]))
+   [rosso.subs]))
 
 (defn ui
   "Root ui view.
@@ -19,7 +18,7 @@
   Returns hiccup demo element to run the demo app."
   [_]
   (let [view @(rf/subscribe [:view])]
-    [demo {:view view}]))
+    [main-window {:view view}]))
 
 (def cli-options
   [["-p" "--port PORT" "port number"

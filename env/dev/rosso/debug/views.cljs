@@ -9,7 +9,7 @@
    [clojure.string :refer [join]]
    [re-frame.core :as rf]
    [reagent.core :as r]
-   [rosso.views :refer [router vertical-menu]]))
+   [rosso.views.core :refer [router]]))
 
 (defonce logger
   (r/atom []))

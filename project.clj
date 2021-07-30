@@ -15,8 +15,8 @@
                                                [cljsjs/create-react-class]]]
                  [re-frame "1.2.0"]]
 
-  :plugins [[lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]
-            [lein-figwheel "0.5.18"]]
+  :plugins [[lein-cljsbuild "1.1.8" :exclusions [[org.clojure/clojure]]]
+            [lein-figwheel "0.5.20"]]
 
   :source-paths ["src"]
 

@@ -1,24 +1,7 @@
-(ns rosso.views
-  "General views and helpers"
-  (:require
-   [reagent.core :as r]
-   [rosso.core :refer [screen]]
-   [rosso.keys :refer [with-keys]]))
-
-(defn router
-  "Takes a map of props:
-  :views map     - Map of values (usually keywords) to hiccup view functions
-  :view  keyword - Current view to display. Should be the key of :views map
-
-  Returns the hiccup vector returned by the selected view-fn.
-
-  Example:
-  (router {:views {:home home-fn
-                   :about about-fn}
-           :view :home})
-  "
-  [{:keys [views view] :as props}]
-  [(get views view) props])
+(ns rosso.views.vertical-menu
+  (:require [reagent.core :as r]
+            [rosso.core :refer [screen]]
+            [rosso.keys :refer [with-keys]]))
 
 (defn- find-index
   "Takes a target value and a map of options.
@@ -28,7 +11,7 @@
   (some->> options
            (keys)
            (map-indexed vector)
-           (filter (fn [[idx v]] (= v target)))
+           (filter (fn [[_ v]] (= v target)))
            (first)
            (first)))
 
@@ -56,7 +39,7 @@
         (nth (if (< prev-idx 0) (dec total) prev-idx))
         (key))))
 
-(defn vertical-menu
+(defn view
   "Display an interactive vertical-menu component.
 
   Takes a hash-map of props:
@@ -81,21 +64,22 @@
               :c \"Item C\"}})"
   [{:keys [bg box default fg on-select options]}]
   (r/with-let [selected (r/atom (or default (->> options first key)))]
-    (with-keys @screen {["j" "down"] #(swap! selected next-option options)
-                        ["k" "up"] #(swap! selected prev-option options)
-                        ["l" "enter"] #(on-select @selected)}
-      (let [current @selected]
-        [:box#menu
-         (merge
-          {:top 1
-           :left 1
-           :right 1
-           :bottom 1}
-          box)
-         (for [[idx [value label]] (map-indexed vector options)]
-           [:box {:key value
-                  :top idx
-                  :style {:bg (when (= value current) (or bg :green))
-                          :fg (when (= value current) (or fg :white))}
-                  :height 1
-                  :content label}])]))))
+              (with-keys @screen {["down"] #(swap! selected next-option options)
+                                  ["up"] #(swap! selected prev-option options)
+                                  ["right"] #(cljs.pprint/pprint %)
+                                  ["enter"] #(on-select @selected)}
+                         (let [current @selected]
+                           [:box#menu
+                            (merge
+                              {:top 1
+                               :left 1
+                               :right 1
+                               :bottom 1}
+                              box)
+                            (for [[idx [value label]] (map-indexed vector options)]
+                              [:box {:key value
+                                     :top idx
+                                     :style {:bg (when (= value current) (or bg :green))
+                                             :fg (when (= value current) (or fg :white))}
+                                     :height 1
+                                     :content label}])]))))

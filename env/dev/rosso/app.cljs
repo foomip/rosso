@@ -4,7 +4,7 @@
    [reagent.core :as r]
    [rosso.core :refer [render screen]]
    [rosso.debug.views :as debug]
-   [rosso.demo.views :refer [demo]]
+   [rosso.views.core :refer [main-window]]
    [rosso.main :as main]))
 
 (defn ui
@@ -13,7 +13,7 @@
   [_]
   (let [view @(rf/subscribe [:view])
         rows (:rows @(rf/subscribe [:size]))]
-    [demo
+    [main-window
      {:view view}
      [debug/debug-box rows]]))
 
