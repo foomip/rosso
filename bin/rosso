@@ -1,5 +1,5 @@
 #!/bin/bash
 
-DEFAULT_ROSSO_LIB_PATH=lib
+"${ROSSO_LIB_PATH:=lib}"
 
-node ${ROSSO_LIB_PATH-${DEFAULT_ROSSO_LIB_PATH}}/main.js
+node "${ROSSO_LIB_PATH}/main.js"
