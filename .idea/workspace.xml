@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fb5fbc7-6582-4a8e-abc0-02005716f3aa" name="Changes" comment="feat: js and clj packages updates to latest">
-      <change beforePath="$PROJECT_DIR$/env/dev/rosso/app.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/env/dev/rosso/app.cljs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/dev/rosso/debug/views.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/env/dev/rosso/debug/views.cljs" afterDir="false" />
+    <list default="true" id="2fb5fbc7-6582-4a8e-abc0-02005716f3aa" name="Changes" comment="feat: project restructured based on sample demo code.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/figwheel_server.log" beforeDir="false" afterPath="$PROJECT_DIR$/figwheel_server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rosso/core.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/rosso/core.cljs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rosso/demo/views.cljs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rosso/events.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/rosso/events.cljs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rosso/keys.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/rosso/keys.cljs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rosso/main.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/rosso/main.cljs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rosso/views.cljs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/build" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/rosso/core_test.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/test/rosso/core_test.cljs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627649296825</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: project restructured based on sample demo code.">
+      <created>1627653209056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627653209056</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: js and clj packages updates to latest" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: js and clj packages updates to latest" />
+    <MESSAGE value="feat: project restructured based on sample demo code." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: project restructured based on sample demo code." />
   </component>
 </project>

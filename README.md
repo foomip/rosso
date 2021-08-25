@@ -19,3 +19,34 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+## Running app
+
+Start up figwheel dev server
+
+```shell
+#rosso> npm run init
+```
+
+The auto-reloading dev console app can now be accessed via node
+
+```shell
+#rosso> node target/js/compiled/rosso.js
+```
+
+## Running tests
+
+```shell
+#rosso> npm run test
+```
+
+## Production build
+
+Process needs to be built out with building packages for different OSes.
+But basic conpiled js package can be done with.
+
+```shell
+#rosso> npm run build
+```
+
+

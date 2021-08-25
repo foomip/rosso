@@ -1722,3 +1722,24 @@ Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
 notifying browser that file changed:  target/js/compiled/dev/goog/deps.js
 notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
 notifying browser that file changed:  target/js/compiled/dev/rosso/views/core.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.824 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.327 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.315 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.351 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js
+Compiling build :dev to "target/js/compiled/rosso.js" from ["src" "env/dev"]...
+[32mSuccessfully compiled build :dev to "target/js/compiled/rosso.js" in 0.328 seconds.[0m
+notifying browser that file changed:  target/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  target/js/compiled/dev/rosso/views/gpu_stats.js

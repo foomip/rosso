@@ -4,7 +4,6 @@
 .hgignore
 /.lein-*
 /.nrepl-port
-/bin
 /checkouts
 /classes
 /node_modules
